@@ -1,0 +1,26 @@
+body{
+  font-family: arial, helvetica, sans-serif;
+  font-size: 14px;
+  color: #666;
+  margin: 10px 10px 10px 250px;
+  background-image: url(http://lorempixel.com/250/300);
+  background-repeat: repeat-y;
+}
+
+h1, h2{
+  margin: 0 0 20px;
+  text-transform: uppercase;
+  font-weight: normal;
+  cursor: default;
+}
+
+h1{
+  font-size: 40px;
+  background-color: #2e7edb;
+  color: #fff;
+  padding: 10px 30px;
+}
+
+h2, p, img{
+  margin-left: 20px;
+}
