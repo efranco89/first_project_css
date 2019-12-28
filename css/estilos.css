@@ -24,3 +24,47 @@ h1{
 h2, p, img{
   margin-left: 20px;
 }
+
+
+p{
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+
+a{
+  color: #d67f1b;
+  text-decoration: none;
+  letter-spacing: 0px;
+  padding: 5px 10px;
+}
+
+a:hover{
+  background-color: #d67f1b;
+  color: #fff ;
+}
+
+a[href="http://google.com"]{
+  color: #cb4fea;
+}
+
+a[href="http://google.com"]:hover{
+  background-color: #cb4fea;
+  color: #fff ;
+}
+
+p span{
+  display: inline-block;
+  width: 300px;
+  float: right;
+  text-align: right;
+  margin: 20px 0px 20px 20px;
+  letter-spacing: 0px;
+  font-size: 30px;
+  color: #999;
+  font-style: italic;
+}
+
+p span::before,
+p span::after{
+  content: '"'
+}
