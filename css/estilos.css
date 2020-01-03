@@ -68,3 +68,25 @@ p span::before,
 p span::after{
   content: '"'
 }
+
+
+img{
+  display: inline-block;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 5px solid #eaeaea; 
+}
+
+#blue-border{
+  border-color: teal;
+}
+
+.blue{
+  color: #2e7edb;
+}
+
+.blue:hover{
+  background-color: #2e7edb;
+  color: #fff;
+}
