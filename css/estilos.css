@@ -166,6 +166,104 @@ img{
   left: 30px;
 }
 
+input[type=text],
+input[type=password],
+textarea,
+input[type=file],
+select {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 10px 10px;
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #eaeaea;
+  color: #666;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+label{
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+}
+
+input[type=text]:hover,
+input[type=password]:hover,
+textarea:hover,
+input[type=file]:hover,
+select:hover{
+  background-color: #666;
+  color: #fff;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+textarea:focus,
+input[type=file]:focus,
+select:focus{
+  background-color: #2e7edb;
+  color: #fff;
+}
+
+input[type=radio],
+input[type=checkbox],
+label,
+button{
+  cursor: pointer;
+}
+
+button{
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #cb4fea;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color: darkred;
+}
+
+.right{
+  text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
